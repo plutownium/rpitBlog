@@ -9,16 +9,24 @@
             display: flex;
             flex-direction: column;
         }
+
+        .left-side-spacing {
+            margin-left: 60px;
+        }
+
+        .space-per-link * {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <div>
-            <h1>Roly Poly's blog</h1>
+        <div class="left-side-spacing">
+            <h1>Roly Poly's Blog</h1>
         </div>
     </header>
     <main>
-        <div class="flex-col">
+        <div class="left-side-spacing flex-col space-per-link">
             <h2>Essays</h2>
             <a href="./essays/reasons-software-dev-sucks.html">Reasons Software Dev Sucks</a>
             <a href="./essays/OnDumbIdeasILeaveUnopposed.html">On Dumb Ideas I Leave Unopposed</a>
